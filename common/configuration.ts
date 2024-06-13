@@ -104,6 +104,10 @@ export interface ITokens {
   bbUSDT?: string
   steakPYUSD?: string
   Re7WETH?: string
+
+  // Anzen
+  USDz?: string
+  sUSDz?: string
 }
 
 export type ITokensKeys = Array<keyof ITokens>
@@ -241,6 +245,8 @@ export const networkConfig: { [key: string]: INetworkConfig } = {
       bbUSDT: '0x2C25f6C25770fFEC5959D34B94Bf898865e5D6b1',
       Re7WETH: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0',
       sdUSDCUSDCPlus: '0x9bbF31E99F30c38a5003952206C31EEa77540BeF',
+      USDz: '0xA469B7Ee9ee773642b3e93E842e5D9b5BaA10067',
+      sUSDz: '0x547213367cfb08ab418e7b54d7883b2c2aa27fd7',
     },
     chainlinkFeeds: {
       RSR: '0x759bBC1be8F90eE6457C44abc7d443842a976d02',
@@ -496,6 +502,7 @@ export const networkConfig: { [key: string]: INetworkConfig } = {
       sUSDbC: '0x4c80e24119cfb836cdf0a6b53dc23f04f7e652ca',
       wstETH: '0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452',
       STG: '0xE3B53AF74a4BF62Ae5511055290838050bf764Df',
+      USDz: '0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938',
     },
     chainlinkFeeds: {
       DAI: '0x591e79239a7d679378ec8c847e5038150364c78f', // 0.3%, 24hr
