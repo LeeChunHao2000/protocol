@@ -108,6 +108,10 @@ export interface ITokens {
   // Mountain
   USDM?: string
   wUSDM?: string
+
+  // Anzen
+  USDz?: string
+  sUSDz?: string
 }
 
 export type ITokensKeys = Array<keyof ITokens>
@@ -245,6 +249,9 @@ export const networkConfig: { [key: string]: INetworkConfig } = {
       bbUSDT: '0x2C25f6C25770fFEC5959D34B94Bf898865e5D6b1',
       Re7WETH: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0',
       sdUSDCUSDCPlus: '0x9bbF31E99F30c38a5003952206C31EEa77540BeF',
+      USDz: '0xA469B7Ee9ee773642b3e93E842e5D9b5BaA10067',
+      sUSDz: '0x547213367cfB08ab418E7b54d7883b2C2AA27Fd7',
+      
     },
     chainlinkFeeds: {
       RSR: '0x759bBC1be8F90eE6457C44abc7d443842a976d02',
